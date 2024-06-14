@@ -31,7 +31,7 @@ function Card({ noOfItems, setNoOfItems, item }) {
     <div className="col mb-5">
       <div className="card h-100">
         {item.sale ? <Sale /> : ""}
-        {Sale()}
+
         {/* <!-- Product image--> */}
 
         <img className="card-img-top" src={item.pic} alt="..." />
@@ -75,7 +75,7 @@ function Card({ noOfItems, setNoOfItems, item }) {
     return (
       <div
         className="badge bg-dark text-white position-absolute"
-        style={{top: "0.5rem", right: "0.5rem"}}
+        style={{ top: "0.5rem", right: "0.5rem" }}
       >
         Sale
       </div>
