@@ -46,18 +46,22 @@ function Card({ noOfItems, setNoOfItems, item }) {
         {/* <!-- Product actions--> */}
         <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
           <div className="text-center">
-            <button
-              onClick={() => {
-                inCart
-                  ? setNoOfItems(noOfItems - 1)
-                  : setNoOfItems(noOfItems + 1);
-                setInCart(!inCart);
-              }}
-              className="btn btn-outline-dark mt-auto"
-              href="#"
-            >
-              {inCart ? "Remove From Cart" : "Add To Cart"}
-            </button>
+            {item.price.price_range ? (
+              ""
+            ) : (
+              <button
+                onClick={() => {
+                  inCart
+                    ? setNoOfItems(noOfItems - 1)
+                    : setNoOfItems(noOfItems + 1);
+                  setInCart(!inCart);
+                }}
+                className="btn btn-outline-dark mt-auto"
+                href="#"
+              >
+                {inCart ? "Remove From Cart" : "Add To Cart"}
+              </button>
+            )}
           </div>
         </div>
       </div>
