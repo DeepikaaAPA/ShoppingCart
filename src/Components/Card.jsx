@@ -18,6 +18,7 @@ export function Card({ noOfItems, setNoOfItems, item }) {
           <div className="text-center">
             {/* <!-- Product name--> */}
             <h5 className="fw-bolder">{item.name}</h5>
+            {/* product rating => calls Rating component */}
             {item.rating ? <Rating r={item.rating} /> : ""}
             {/* <!-- Product price--> */}
             <Price price={item.price} />
