@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Harry Potter",
-    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28n69GelS8ziZBHC8XYLbQMN2HV0vr9ii3A&s",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdm1bUACieAUw5g1MyRjsqzAj20_7fBtgQQw&s",
     "sale": true,
     "rating": 5,
     "price": {
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Toys",
-    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28n69GelS8ziZBHC8XYLbQMN2HV0vr9ii3A&s",
+    "pic": "https://img.freepik.com/free-vector/children-toys-set_74855-7019.jpg",
     "sale": false,
     "rating": null,
     "price": {
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Fancy Bag",
-    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYQ5XApyHt542ukP2uRxmfZHYX1HXQ3i5Mxg&s",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyuaz_mVBsUnDLjDUNXSIxa8tbm8G-1sv-aQ&s",
     "sale": true,
     "rating": 4.5,
     "price": {
