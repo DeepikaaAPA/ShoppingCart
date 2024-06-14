@@ -6,9 +6,9 @@ import { Price } from "./Price";
 export function Products({ noOfItems, setNoOfItems }) {
   console.log("No of items :", noOfItems);
   return (
-    <section className="py-5">
-      <div className="container px-4 px-lg-5 mt-5">
-        <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+    <section>
+      <div className="container px-4 px-lg-5 mt-2">
+        <div className="row gx-3 gx-lg-4 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
           {items.map((i) => {
             console.log("i=", i);
             return (
@@ -28,7 +28,7 @@ function Card({ noOfItems, setNoOfItems, item }) {
   //   console.log(item.id, a);
   let [inCart, setInCart] = useState(false);
   return (
-    <div className="col mb-5">
+    <div className="col mb-2">
       <div className="card h-100">
         {item.sale ? <Sale /> : ""}
 
@@ -36,7 +36,7 @@ function Card({ noOfItems, setNoOfItems, item }) {
 
         <img className="card-img-top" src={item.pic} alt="..." />
         {/* <!-- Product details--> */}
-        <div className="card-body p-4">
+        <div className="card-body p-1">
           <div className="text-center">
             {/* <!-- Product name--> */}
             <h5 className="fw-bolder">{item.name}</h5>
