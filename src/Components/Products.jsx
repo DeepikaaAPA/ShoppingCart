@@ -47,7 +47,9 @@ function Card({ noOfItems, setNoOfItems, item }) {
         <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
           <div className="text-center">
             {item.price.price_range ? (
-              ""
+              <button className="btn btn-outline-dark mt-auto">
+                View Options
+              </button>
             ) : (
               <button
                 onClick={() => {
@@ -57,7 +59,6 @@ function Card({ noOfItems, setNoOfItems, item }) {
                   setInCart(!inCart);
                 }}
                 className="btn btn-outline-dark mt-auto"
-                href="#"
               >
                 {inCart ? "Remove From Cart" : "Add To Cart"}
               </button>
