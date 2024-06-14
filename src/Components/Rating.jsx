@@ -7,7 +7,7 @@ export function Rating({ r }) {
     stars.push(i);
   }
   return (
-    <div class="d-flex justify-content-center small text-warning mb-2">
+    <div className="d-flex justify-content-center small text-warning mb-2">
       {stars.map((s) => (
         <Star />
       ))}

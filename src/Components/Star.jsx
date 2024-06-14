@@ -1,3 +1,3 @@
 export function Star() {
-  return <div class="bi-star-fill"></div>;
+  return <div className="bi-star-fill"></div>;
 }

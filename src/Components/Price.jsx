@@ -10,6 +10,6 @@ export function Price({ price }) {
 }
 function OldPrice({ old_price }) {
   return (
-    <span class="text-muted text-decoration-line-through">{old_price}</span>
+    <span className="text-muted text-decoration-line-through">{old_price}</span>
   );
 }
