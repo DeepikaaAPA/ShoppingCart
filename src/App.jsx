@@ -6,12 +6,12 @@ import { NavBar } from "./Components/NavBar.jsx";
 import { Products } from "./Components/Products.jsx";
 function App() {
   const [count, setCount] = useState(0);
-
+  let [noOfItems, setNoOfItems] = useState(0);
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar noOfItems={noOfItems}  ></NavBar>
       <Header></Header>
-      <Products></Products>
+      <Products noOfItems={noOfItems} setNoOfItems={setNoOfItems}></Products>
       <Footer />
     </>
   );

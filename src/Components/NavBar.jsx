@@ -1,8 +1,7 @@
 import { useState } from "react";
+import { Cart } from "./Cart";
 
-
-export function NavBar() {
-    let [noOfItems, setNoOfItems] = useState(0);
+export function NavBar({noOfItems}) {
   return (
     <>
       {/* <!-- Navigation--> */}
@@ -71,19 +70,12 @@ export function NavBar() {
               <button className="btn btn-outline-dark" type="submit">
                 <i className="bi-cart-fill me-1"></i>
                 Cart
-                <Cart noOfItems={noOfItems}></Cart>
+                <Cart  noOfItems={noOfItems}></Cart>
               </button>
             </form>
           </div>
         </div>
       </nav>
     </>
-  );
-}
-function Cart({ noOfItems }) {
-  return (
-    <span className="badge bg-dark text-white ms-1 rounded-pill">
-      {noOfItems}
-    </span>
   );
 }
