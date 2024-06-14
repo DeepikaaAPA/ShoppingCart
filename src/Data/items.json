@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Book Shelf",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5FhYgLK8tND8k12hyCd6-dXgCgshIzj8I8A&s",
+    "sale": false,
+    "rating": null,
+    "price": {
+      "old_price": null,
+      "new_price": null,
+      "price_range": "$40.00-$80.00"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Titan Watch",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28n69GelS8ziZBHC8XYLbQMN2HV0vr9ii3A&s",
+    "sale": true,
+    "rating": 5,
+    "price": {
+      "old_price": "$20.00",
+      "new_price": "$18.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 3,
+    "name": "Nike Shoe",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9eAqxljTteybiscbJymwvzUIgJKvl-zF6bw&s",
+    "sale": true,
+    "rating": null,
+    "price": {
+      "old_price": "$50.00",
+      "new_price": "$25.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 4,
+    "name": "Eraser",
+    "pic": "https://5.imimg.com/data5/TB/HB/MY-54644535/dust-free-eraser-500x500.jpg",
+    "sale": false,
+    "rating": 4,
+    "price": {
+      "old_price": "30.00",
+      "new_price": "$25.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 5,
+    "name": "Harry Potter",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28n69GelS8ziZBHC8XYLbQMN2HV0vr9ii3A&s",
+    "sale": true,
+    "rating": 5,
+    "price": {
+      "old_price": "$100.00",
+      "new_price": "$85.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 6,
+    "name": "Toys",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28n69GelS8ziZBHC8XYLbQMN2HV0vr9ii3A&s",
+    "sale": false,
+    "rating": null,
+    "price": {
+      "old_price": null,
+      "new_price": null,
+      "price_range": "$10.00-200.00"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Crayons",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYQ5XApyHt542ukP2uRxmfZHYX1HXQ3i5Mxg&s",
+    "sale": false,
+    "rating": 3.5,
+    "price": {
+      "old_price": null,
+      "new_price": "$15.00",
+      "price_range": null
+    }
+  },
+  {
+    "id": 8,
+    "name": "Fancy Bag",
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYQ5XApyHt542ukP2uRxmfZHYX1HXQ3i5Mxg&s",
+    "sale": true,
+    "rating": 4.5,
+    "price": {
+      "old_price": "$100.00",
+      "new_price": "$85.00",
+      "price_range": null
+    }
+  }
+]
